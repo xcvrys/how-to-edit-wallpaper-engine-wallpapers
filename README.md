@@ -1,3 +1,29 @@
+# How To edit [Wallpaper Engine](https://www.wallpaperengine.io/en) Wallpapers - Windows
+
+## Download's
+
+1. Wallpaper Engine: [Steam](https://store.steampowered.com/app/431960/Wallpaper_Engine/) (it's paid :c)
+2. Download RePKG: GitHub (in this repo)
+
+## Steps
+
+1. [Download](https://i.imgur.com/sNy7naW.png) the wallpaper you want to edit
+2. Locate the wallpaper in the Wallpaper Engine folder
+
+```bash
+C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\{wallpaper_id}
+```
+
+3. Extract the wallpaper with RePKG exaple:
+
+```bash
+.\RePKG.exe extract -e tex -s -o ./output "C:\Program Files (x86)\Steam\steamapps\workshop\content\431960\{wallpaper_id}\scene.pkg"
+```
+
+4. Edit the files in the `./output` folder
+
+
+
 # RePKG
 Wallpaper engine PKG unpacker/TEX converter, written in C#.
 
